@@ -107,7 +107,7 @@ public class BullsAndCows {
 
             String symbol = ALL_SYMBOLS.substring(index, index + 1);
             if (code.indexOf(symbol) == -1) {
-                code.append(ALL_SYMBOLS.charAt(index));
+                code.append(symbol);
             }
         }
 
